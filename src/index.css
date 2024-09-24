@@ -41,19 +41,20 @@ body {
     color: rgb(0, 0, 0);
     padding: 10px;
     text-align: center;
-    position: relative;
+    /*position:  ; .................................................................................. */
     bottom: 0;
     width: 100%;
   }
   
   footer p {
-    margin: 0;
+    margin: 5px;
     font-size: 14px;
+    
   }
   
   /* Button Styles */
   button, .btn {
-    background-color: #000000;
+    background-color: #ff0000;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -67,7 +68,7 @@ body {
   
   /* Links */
   a {
-    color: #003366;
+    color: #ff0000;
     text-decoration: none;
   }
   
@@ -113,14 +114,14 @@ body {
 #card-section {
   display: flex;
   justify-content: space-around;
-  padding: 40px;
+  padding: 30px;
 }
 
 #card-section .card {
   background-color: white;
   border: 1px solid #ccc;
-  padding: 20px;
-  width: 30%;
+  padding: 15px;
+  width: 20%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
@@ -132,6 +133,12 @@ body {
 #card-section .card p {
   font-size: 1rem;
   line-height: 1.5;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
   
   /* Slideshow Styles */
@@ -188,7 +195,7 @@ body {
   }
   
   .login-container button:hover {
-    background-color: #860606;
+    background-color: #cecece;
   }
   
   /* Sobre Page Styles */
@@ -248,7 +255,7 @@ body {
   .contato-container button {
     width: 100%;
     padding: 10px;
-    background-color: #000000;
+    background-color: #ff0000;
     color: white;
     border: none;
     border-radius: 5px;
@@ -256,7 +263,7 @@ body {
   }
   
   .contato-container button:hover {
-    background-color: #002244;
+    background-color: #cecece;
   }
   
   /* Estatísticas Page Styles */
@@ -283,8 +290,8 @@ body {
   }
   
   .table th {
-    background-color: #003366;
-    color: white;
+    background-color: #ff0000;
+    color: rgb(0, 0, 0);
   }
   
   .table tr:nth-child(even) {
