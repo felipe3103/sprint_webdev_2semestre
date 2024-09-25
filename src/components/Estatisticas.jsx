@@ -23,6 +23,46 @@ const Estatisticas = () => {
             <td>3</td>
             <td>95</td>
           </tr>
+          <tr>
+            <td>Piloto 3</td>
+            <td>2</td>
+            <td>48</td>
+          </tr>
+          <tr>
+            <td>Piloto 4</td>
+            <td>6</td>
+            <td>144</td>
+          </tr>
+          <tr>
+            <td>Piloto 5</td>
+            <td>1</td>
+            <td>24</td>
+          </tr>
+          <tr>
+            <td>Piloto 6</td>
+            <td>7</td>
+            <td>168</td>
+          </tr>
+          <tr>
+            <td>Piloto 7</td>
+            <td>1</td>
+            <td>24</td>
+          </tr>
+          <tr>
+            <td>Piloto 8</td>
+            <td>8</td>
+            <td>192</td>
+          </tr>
+          <tr>
+            <td>Piloto 9</td>
+            <td>4</td>
+            <td>96</td>
+          </tr>
+          <tr>
+            <td>Piloto 10</td>
+            <td>1</td>
+            <td>96</td>
+          </tr>
         </tbody>
       </table>
     </div>

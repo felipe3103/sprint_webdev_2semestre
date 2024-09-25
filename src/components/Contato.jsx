@@ -1,7 +1,13 @@
 import React, { useState } from 'react';
 
 const Contato = () => {
-  const [formData, setFormData] = useState({ nome: '', email: '', mensagem: '' });
+  const [formData, setFormData] = useState({
+    nome: '',
+    email: '',
+    telefone: '',
+    cpf: '',
+    mensagem: '',
+  });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -24,6 +30,7 @@ const Contato = () => {
           value={formData.nome}
           onChange={handleChange}
         />
+        
         <label>Email</label>
         <input
           type="email"
@@ -31,12 +38,32 @@ const Contato = () => {
           value={formData.email}
           onChange={handleChange}
         />
+
+        <label>Telefone</label>
+        <input
+          type="tel"
+          name="telefone"
+          value={formData.telefone}
+          onChange={handleChange}
+          placeholder="(00) 00000-0000"
+        />
+
+        <label>CPF</label>
+        <input
+          type="text"
+          name="cpf"
+          value={formData.cpf}
+          onChange={handleChange}
+          placeholder="000.000.000-00"
+        />
+        
         <label>Mensagem</label>
         <textarea
           name="mensagem"
           value={formData.mensagem}
           onChange={handleChange}
         />
+        
         <button type="submit">Enviar</button>
       </form>
     </div>
@@ -44,3 +71,4 @@ const Contato = () => {
 };
 
 export default Contato;
+
