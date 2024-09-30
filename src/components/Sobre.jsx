@@ -8,7 +8,7 @@ const Sobre = () => {
         A Formula E foi lançada com a visão de acelerar a transição para veículos elétricos, testando novas
         tecnologias de mobilidade sustentável nas pistas de corrida mais famosas do mundo.
       </p>
-      <img src="./assets/logomahindra.png" alt="História da Formula E" />
+      <img src="./public/assets/logomahindra.png" alt="História da Formula E" />
     </div>
   );
 };
