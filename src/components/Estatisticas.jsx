@@ -61,7 +61,32 @@ const Estatisticas = () => {
           <tr>
             <td>Piloto 10</td>
             <td>1</td>
-            <td>96</td>
+            <td>24</td>
+          </tr>
+          <tr>
+            <td>Piloto 11</td>
+            <td>10</td>
+            <td>240</td>
+          </tr>
+          <tr>
+            <td>Piloto 12</td>
+            <td>3</td>
+            <td>72</td>
+          </tr>
+          <tr>
+            <td>Piloto 13</td>
+            <td>6</td>
+            <td>144</td>
+          </tr>
+          <tr>
+            <td>Piloto 14</td>
+            <td>2</td>
+            <td>48</td>
+          </tr>
+          <tr>
+            <td>Piloto 15</td>
+            <td>1</td>
+            <td>24</td>
           </tr>
         </tbody>
       </table>

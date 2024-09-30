@@ -6,6 +6,8 @@ const Contato = () => {
     email: '',
     telefone: '',
     cpf: '',
+    cep: '',
+    endereco: '',
     mensagem: '',
   });
 
@@ -57,6 +59,24 @@ const Contato = () => {
           placeholder="000.000.000-00"
         />
         
+        <label>CEP</label>
+        <input
+          type="text"
+          name="cep"
+          value={formData.cep}
+          onChange={handleChange}
+          placeholder="00000-000"
+        />
+
+        <label>Endereço</label>
+        <input
+          type="text"
+          name="endereco"
+          value={formData.endereco}
+          onChange={handleChange}
+          placeholder="Rua, Número, Bairro, Cidade"
+        />
+
         <label>Mensagem</label>
         <textarea
           name="mensagem"
